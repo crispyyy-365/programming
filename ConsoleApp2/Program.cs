@@ -140,32 +140,32 @@
 
 
 
-Console.WriteLine("birinci ededi daxil edin : ");
+//Console.WriteLine("birinci ededi daxil edin : ");
 
-int num1 = Convert.ToInt32(Console.ReadLine());
+//int num1 = Convert.ToInt32(Console.ReadLine());
 
 
-Console.WriteLine("ikinci ededi daxil edin : ");
+//Console.WriteLine("ikinci ededi daxil edin : ");
 
-int num2 = Convert.ToInt32(Console.ReadLine());
+//int num2 = Convert.ToInt32(Console.ReadLine());
 
-int count = 0;
+//int count = 0;
 
-int sum = 0;
+//int sum = 0;
 
-Console.WriteLine("daxil edilen ededlerin arasinda 15 e bolunen ededler :");
+//Console.WriteLine("daxil edilen ededlerin arasinda 15 e bolunen ededler :");
 
-for (int i = num1; i <= num2; i++)
-{
-    if (i % 15 == 0)
-    {
-        Console.WriteLine(i);
-        sum += i;
-        count++;
-    };
-};
-Console.WriteLine("daxil edilen ededlerin arasinda 15 e bolunen ededlerin ededi ortasi : ");
-Console.WriteLine(sum / count);
+//for (int i = num1; i <= num2; i++)
+//{
+//    if (i % 15 == 0)
+//    {
+//        Console.WriteLine(i);
+//        sum += i;
+//        count++;
+//    };
+//};
+//Console.WriteLine("daxil edilen ededlerin arasinda 15 e bolunen ededlerin ededi ortasi : ");
+//Console.WriteLine(sum / count);
 
 
 
