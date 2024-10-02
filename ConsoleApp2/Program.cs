@@ -99,4 +99,76 @@
 //else
 //{
 //    Console.WriteLine("heftenin bele bir gunu yoxdur !");
+//}
+//using System.Diagnostics.CodeAnalysis;
+
+//int num = Convert.ToInt32(Console.ReadLine());
+
+//int sum = 1;
+
+//for (int i = 0; i < num; i++)
+//{
+//    sum = sum * (num - i);
 //};
+
+//Console.WriteLine(sum);
+
+
+
+
+
+
+
+
+
+//int range_num = Convert.ToInt32(Console.ReadLine());
+
+//int num1 = 0;
+
+//int num2 = 1;
+
+//for (int i = 0; i <range_num; i++)
+//{
+//    num2 = num2 + (num2 - 1);
+//};
+
+
+
+
+
+
+
+
+
+Console.WriteLine("birinci ededi daxil edin : ");
+
+int num1 = Convert.ToInt32(Console.ReadLine());
+
+
+Console.WriteLine("ikinci ededi daxil edin : ");
+
+int num2 = Convert.ToInt32(Console.ReadLine());
+
+int count = 0;
+
+int sum = 0;
+
+Console.WriteLine("daxil edilen ededlerin arasinda 15 e bolunen ededler :");
+
+for (int i = num1; i <= num2; i++)
+{
+    if (i % 15 == 0)
+    {
+        Console.WriteLine(i);
+        sum += i;
+        count++;
+    };
+};
+Console.WriteLine("daxil edilen ededlerin arasinda 15 e bolunen ededlerin ededi ortasi : ");
+Console.WriteLine(sum / count);
+
+
+
+
+
+
